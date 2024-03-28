@@ -1,4 +1,4 @@
-package org.Automation5x.Selenium1703;
+package org.Automation5x.Selenium23032024;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -6,43 +6,38 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Selenium17 {
+    WebDriver driver;
+    // Atomic Test Cases
+    // TC who don't have any dep.
+    // They serve single purpose 0
+
+    @BeforeTest
+    public void openZBrowser(){
+        //Create sesion via API and session
+        driver = new EdgeDriver();
+    }
+
     @Test(groups = "QA")
-    @Description("Verify the current URL , title of the VWO App")
-    public void testVWOLogin14() throws InterruptedException {
-        WebDriver driver = new EdgeDriver();
-
+    @Description("Test Case Description")
+    public void testVWOLogin_positive() throws InterruptedException {
         driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.manage().window().maximize();
+    }
 
-        //<a
-        // id="btn-make-appointment"
-        // href="./profile.php#login"
-        // class="btn btn-dark btn-lg">
+    @Test(groups = "QA")
+    @Description("Test Case Description")
+    public void testVWOLogin_negative() throws InterruptedException {
+        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.manage().window().maximize();
+    }
 
-        // Make Appointment
-        // </a>
-
-        WebElement btnElement_ID=driver.findElement(By.id("btn-make-appointment"));
-        btnElement_ID.click();
-        Thread.sleep(3000);
-
-        Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/profile.php#login");
-
-        WebElement user_ID=driver.findElement(By.id("txt-username"));
-        user_ID.sendKeys("John Doe");
-
-
-        WebElement user_pass=driver.findElement(By.xpath("//input[@id='txt-password']"));
-        user_pass.sendKeys("ThisIsNotAPassword");
-
-        driver.findElement(By.id("btn-login")).click();
-
-
-
-
-
-
+    @AfterTest
+    public void closeBrowser(){
+        driver.quit();
     }
 }

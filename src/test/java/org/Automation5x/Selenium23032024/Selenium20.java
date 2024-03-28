@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class Selenium19 {
+public class Selenium20 {
     WebDriver driver;
     // Atomic Test Cases
     // TC who don't have any dep.
@@ -36,23 +36,13 @@ public class Selenium19 {
     @Description("Verify the current URL , title of the VWO App")
     public void testPostive() throws InterruptedException {
 
-        driver.get("https://www.ebay.com/b/Desktops-All-In-One-Computers/171957/bn_1643067");
+        driver.get("https://wf-ecomm-pwa-git-feat-enhanced-search-wellness-forever.vercel.app/");
         driver.manage().window().maximize();
+        Thread.sleep(3000);
+        WebElement element = driver.findElement(By.xpath("//button[contains(text(),'Use Current Location')]"));
+        element.click();
+        Thread.sleep(5000);
 
-        WebElement searchBox = driver.findElement(By.xpath("//input[@id='gh-ac']"));
-        searchBox.sendKeys("macmini");
-
-        WebElement searchbutton = driver.findElement(By.cssSelector("input[value=\"Search\"]"));
-        searchbutton.click();
-
-        Thread.sleep(300);
-
-        List<WebElement> searchtitle = driver.findElements(By.xpath("//*[@class = 's-item__title']/span"));
-        for (WebElement title:searchtitle) {
-            System.out.println(title.getText());
-
-        }
-        
 
     }
 

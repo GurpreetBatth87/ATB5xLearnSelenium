@@ -7,22 +7,34 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class Selenium12 {
+import java.util.List;
+
+public class Selenium13 {
     // LinkText & Partial Text Text
     // Css Selctors
     // Xpath
     @Test(groups = "QA")
     @Description("Verify the current URL , title of the VWO App")
-    public void testVWOLogin12() {
+    public void testVWOLogin13() {
         WebDriver driver = new EdgeDriver();
+
         driver.get("https://app.vwo.com");
 
-       // WebElement anchor_tag = driver.findElement(By.linkText("Start a free trial"));
-        WebElement anchor_tag = driver.findElement(By.partialLinkText("Start a f"));
-        System.out.println(anchor_tag.getAttribute("href"));
-        anchor_tag.click();
+        //Question print all the anchor tags on this VWO .com
+        //a tags and print the gettest
 
-        driver.close();
+        List <WebElement> all_tags = driver.findElements(By.tagName("a"));
+        //all_tags.get(8).click();  //clisk on the first element
+       // all_tags.get(1).click(); // click on the second element
+        all_tags.size();
+
+        for (WebElement elementsal :all_tags){
+            System.out.println(elementsal.getText());
+        }
+
+
+
+
 
     }
 }

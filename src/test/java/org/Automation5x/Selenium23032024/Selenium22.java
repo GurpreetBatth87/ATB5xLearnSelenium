@@ -14,9 +14,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
-public class Selenium21 {
+public class Selenium22 {
     WebDriver driver;
     // Atomic Test Cases
     // TC who don't have any dep.
@@ -46,14 +45,17 @@ public class Selenium21 {
         // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         // Global wait to all the elements which we don't use
 
-        driver.findElement(By.id("login-username")).sendKeys("93npu2yyb0@esiix.com");
-        driver.findElement(By.id("login-password")).sendKeys("Wingify@123");
+        driver.findElement(By.id("login-username")).sendKeys("contact+atb5x@thetestingacademy.com");
+        driver.findElement(By.id("login-password")).sendKeys("ATBx@1234");
         driver.findElement(By.id("js-login-btn")).click();
 
-        WebElement error_msg = driver.findElement(By.id("js-notification-box-msg"));
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3000));
-        wait.until(ExpectedConditions.textToBePresentInElement(error_msg,"Your email, password, IP address or location did not match"));
-        System.out.println("--->"+error_msg.getText());
+       // WebElement error_msg = driver.findElement(By.id("js-notification-box-msg"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[data-qa='lufexuloga']")));
+        WebElement loggedin_username= driver.findElement(By.cssSelector("[data-qa='lufexuloga']"));
+
+        System.out.println("Logged in User details -> " +loggedin_username.getText());
 
 
        // wait.until(ExpectedConditions.textToBePresentInElement(error_msg,"Your email, password, IP address or location did not match"));

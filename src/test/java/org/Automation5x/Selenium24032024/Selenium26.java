@@ -5,7 +5,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -13,8 +12,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
-public class Selenium25 {
+public class Selenium26 {
     WebDriver driver;
     // Atomic Test Cases
     // TC who don't have any dep.
@@ -38,27 +38,12 @@ public class Selenium25 {
     @Description("Verify the current URL , title of the VWO App")
     public void testPostive() throws InterruptedException {
 
-        driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+        driver.get("https://the-internet.herokuapp.com/checkboxes");
         driver.manage().window().maximize();
-//WebElement element = driver.findElement(By.xpath("//button[@onclick='jsAlert()']"));
-//WebElement elementConfirm = driver.findElement(By.xpath("//button[@onclick='jsConfirm()']"));
-        WebElement elementPrompt= driver.findElement(By.xpath("//button[@onclick=\"jsPrompt()\"]"));
-        //element.click();
-        //elementConfirm.click();
-        elementPrompt.click();
+        List<WebElement> checkboxs =driver.findElements(By.xpath("//input[@type='checkbox']"));
+        WebElement ch1 = checkboxs.get(0);
+        ch1.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        wait.until(ExpectedConditions.alertIsPresent());
-
-        Alert alert = driver.switchTo().alert();
-        alert.sendKeys("Gurpreet");
-        alert.accept();
-        //alert.dismiss();
-
-        String result = driver.findElement(By.id("result")).getText();
-        //Assert.assertEquals(result,"You successfully clicked an alert");
-        //Assert.assertEquals(result,"You clicked: Ok");
-        Assert.assertEquals(result,"You entered: PRAMOD");
 
 
         Thread.sleep(1500);

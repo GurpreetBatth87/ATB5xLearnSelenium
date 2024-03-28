@@ -14,10 +14,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class msp {
+public class MSP_checkout {
     WebDriver driver;
     // Atomic Test Cases
     // TC who don't have any dep.
@@ -59,9 +57,9 @@ public class msp {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button.startBtn > span")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button.checkBtn > span")));
 
-        WebElement startbutton = driver.findElement(By.cssSelector("button.startBtn > span"));
+        WebElement startbutton = driver.findElement(By.cssSelector("button.checkBtn > span"));
         startbutton.click();
         System.out.println(startbutton);
 

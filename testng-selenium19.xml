@@ -4,10 +4,8 @@
     <test verbose="2" preserve-order="true" name="C:/Users/gurpr/IdeaProjects/ATB5xLearnSelenium">
         <classes>
 
-            <class name="org.Automation5x.selenium.Selenium10">
-                <methods>
-                    <include name="testVWOLogin"/>
-                </methods>
+            <class name="org.Automation5x.Selenium23032024.Selenium19">
+
             </class>
         </classes>
     </test>

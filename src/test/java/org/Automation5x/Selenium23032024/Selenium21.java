@@ -7,13 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.List;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
-public class Selenium20 {
+public class Selenium21 {
     WebDriver driver;
     // Atomic Test Cases
     // TC who don't have any dep.
@@ -36,12 +39,25 @@ public class Selenium20 {
     @Description("Verify the current URL , title of the VWO App")
     public void testPostive() throws InterruptedException {
 
-        driver.get("https://wf-ecomm-pwa-git-feat-enhanced-search-wellness-forever.vercel.app/");
+        driver.get("https://app.vwo.com");
         driver.manage().window().maximize();
-        Thread.sleep(3000);
-        WebElement element = driver.findElement(By.xpath("//button[contains(text(),'Use Current Location')]"));
-        element.click();
-        Thread.sleep(5000);
+       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        // Global wait to all the elements which we don't use
+
+        driver.findElement(By.id("login-username")).sendKeys("93npu2yyb0@esiix.com");
+        driver.findElement(By.id("login-password")).sendKeys("Wingify@123");
+        driver.findElement(By.id("js-login-btn")).click();
+
+        WebElement error_msg = driver.findElement(By.id("js-notification-box-msg"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3000));
+        wait.until(ExpectedConditions.textToBePresentInElement(error_msg,"Your email, password, IP address or location did not match"));
+        System.out.println("--->"+error_msg.getText());
+
+
+       // wait.until(ExpectedConditions.textToBePresentInElement(error_msg,"Your email, password, IP address or location did not match"));
+       // Thread.sleep(3000);
 
 
     }

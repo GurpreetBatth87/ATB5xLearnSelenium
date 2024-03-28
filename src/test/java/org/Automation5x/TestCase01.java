@@ -10,4 +10,20 @@ public class TestCase01 {
 
     }
 
+    /**
+     * Unit test for simple App.
+     */
+    public static class AppTest
+    {
+        /**
+         * Rigorous Test :-)
+         */
+        @Test
+        public void shouldAnswerWithTrue()
+        {
+
+            System.out.println("test");
+        }
+
+    }
 }
