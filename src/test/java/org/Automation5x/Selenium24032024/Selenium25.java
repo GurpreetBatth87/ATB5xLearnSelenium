@@ -1,19 +1,19 @@
-package org.Automation5x.Selenium23032024;
+package org.Automation5x.Selenium24032024;
 
 import io.qameta.allure.Description;
-import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.List;
+import java.time.Duration;
 
-public class Selenium19 {
+public class Selenium24 {
     WebDriver driver;
     // Atomic Test Cases
     // TC who don't have any dep.
@@ -25,6 +25,7 @@ public class Selenium19 {
 
         EdgeOptions options = new EdgeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+        options.addArguments("--guest");
         driver = new EdgeDriver(options);
     }
 
@@ -36,23 +37,16 @@ public class Selenium19 {
     @Description("Verify the current URL , title of the VWO App")
     public void testPostive() throws InterruptedException {
 
-        driver.get("https://www.ebay.com/b/Desktops-All-In-One-Computers/171957/bn_1643067");
+        driver.get("https://the-internet.herokuapp.com/dropdown");
         driver.manage().window().maximize();
 
-        WebElement searchBox = driver.findElement(By.xpath("//input[@id='gh-ac']"));
-        searchBox.sendKeys("macmini");
+        WebElement element_select = driver.findElement(By.id("dropdown"));
+        Select select = new Select(element_select);
+        select.selectByIndex(1);
 
-        WebElement searchbutton = driver.findElement(By.cssSelector("input[value=\"Search\"]"));
-        searchbutton.click();
+        Thread.sleep(1500);
 
-        Thread.sleep(300);
 
-        List<WebElement> searchtitle = driver.findElements(By.xpath("//*[@class = 's-item__title']/span"));
-        for (WebElement title:searchtitle) {
-            System.out.println(title.getText());
-
-        }
-        
 
     }
 
