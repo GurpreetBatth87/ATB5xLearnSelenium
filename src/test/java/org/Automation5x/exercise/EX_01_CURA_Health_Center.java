@@ -70,8 +70,10 @@ public class EX_01_CURA_Health_Center {
         System.out.println("--->"+comment_message.getText());
 
 
-        WebElement valid_message = driver.findElement(By.xpath("//div[@class='col-xs-12 text-center']"));
+        WebElement valid_message = driver.findElement(By.xpath("//div[@class='col-xs-12 text-center']/h2"));
 
+        String result = valid_message.getText();
+        Assert.assertEquals(result,"Appointment Confirmation");
 
     }
 

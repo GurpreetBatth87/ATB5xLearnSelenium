@@ -13,8 +13,7 @@ public class Selenium01 {
          * 3. EdgeDriver (Server) -> Tell the Edge Browser
          * 4. Open a Fresh copy of thre Edge Browser and Open the URL - https//sdet.live
          * 5. Driver - Command (POST) Request - Shutdown the browser.
-         * */gurpreet
-
+         * */
 
     }
 }

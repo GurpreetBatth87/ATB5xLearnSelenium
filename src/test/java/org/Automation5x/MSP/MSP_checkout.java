@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -22,11 +23,10 @@ public class MSP_checkout {
     // They serve single purpose 0
 
     @BeforeTest
-    public void openZBrowser(){
-        //Create sesion via API and session
-
+    public void openBrowser(){
         EdgeOptions options = new EdgeOptions();
         options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+        options.addArguments("--guest");
         driver = new EdgeDriver(options);
     }
 
@@ -61,7 +61,16 @@ public class MSP_checkout {
 
         WebElement startbutton = driver.findElement(By.cssSelector("button.checkBtn > span"));
         startbutton.click();
-        System.out.println(startbutton);
+
+        driver.switchTo().frame("ngb-modal-window");
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[class='form-control dropdown ng-pristine ng-invalid ng-touched']")));
+
+        WebElement element_select = driver.findElement(By.cssSelector("select[class='form-control dropdown ng-pristine ng-invalid ng-touched']"));
+        element_select.click();
+        Select select = new Select(element_select);
+        select.selectByIndex(4);
+
 
 
 
@@ -77,6 +86,6 @@ public class MSP_checkout {
 
     @AfterTest
     public void closeBrowser(){
-        //driver.quit();
+        driver.quit();
     }
 }

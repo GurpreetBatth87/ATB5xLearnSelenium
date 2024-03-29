@@ -5,44 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d803a2-defb-497f-9fa4-c7d1bd5c0945" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/MSP/MSP_checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/MSP/MSP_checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium1703/Selenium14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium1703/Selenium14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium1703/Selenium15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium1703/Selenium15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium1703/Selenium16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium1703/Selenium16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium23032024/Selenium23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selenium24032024/Selenium28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/TestCase01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/TestCase01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/TestCase02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/TestCase02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/Testcase03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Testcase03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/exercise/EX_01_CURA_Health_Center.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/exercise/EX_01_CURA_Health_Center.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/selenium04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/selenium04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium1603/Selenium11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium1603/Selenium11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium1603/Selenium12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium1603/Selenium12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium1603/Selenium13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium1603/Selenium13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-selenium19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-selenium19.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +61,7 @@
       <recent name="org.Automation5x.Selenium1703" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EX_01_CURA_Health_Center.testVWOLogin14">
+  <component name="RunManager" selected="TestNG.MSP_checkout.testPostive">
     <configuration name="EX_01_CURA_Health_Center (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
@@ -148,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium16.testVWOLogin14" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MSP_checkout.testPostive (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.Selenium1703.*" />
+          <option name="PATTERN" value="org.Automation5x.MSP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.Selenium1703" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.Selenium1703.Selenium16" />
-      <option name="METHOD_NAME" value="testVWOLogin14" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.MSP" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.MSP.MSP_checkout" />
+      <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -166,17 +132,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium17" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MSP_checkout.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.Selenium23032024.*" />
+          <option name="PATTERN" value="org.Automation5x.MSP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.Selenium23032024" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.Selenium23032024.Selenium17" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.MSP" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.MSP.MSP_checkout" />
+      <option name="METHOD_NAME" value="testPostive" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -185,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MSP_checkout.testPostive" />
+        <item itemvalue="TestNG.MSP_checkout.testPostive (1)" />
+        <item itemvalue="TestNG.EX_01_CURA_Health_Center" />
         <item itemvalue="TestNG.EX_01_CURA_Health_Center.testVWOLogin14" />
         <item itemvalue="TestNG.EX_01_CURA_Health_Center (1)" />
-        <item itemvalue="TestNG.EX_01_CURA_Health_Center" />
-        <item itemvalue="TestNG.Selenium16.testVWOLogin14" />
-        <item itemvalue="TestNG.Selenium17" />
       </list>
     </recent_temporary>
   </component>
