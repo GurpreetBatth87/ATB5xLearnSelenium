@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d803a2-defb-497f-9fa4-c7d1bd5c0945" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium30_Find_SVG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium31_JavascriptExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium32_Actions_Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium33_Spice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium34_makeMyTrip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium35_newwindo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/MSP/MSP_checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/MSP/MSP_checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/exercise/EX_01_CURA_Health_Center.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/exercise/EX_01_CURA_Health_Center.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium/Selenium01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2dXljQp7EhRViEfexblR6xlxlFq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,94 +41,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/gurpr/IdeaProjects/ATB5xLearnSelenium",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gurpr/IdeaProjects/ATB5xLearnSelenium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gurpr\IdeaProjects\ATB5xLearnSelenium" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.Automation5x.selenium30032024" />
       <recent name="org.Automation5x.exercise" />
       <recent name="org.Automation5x.MSP" />
       <recent name="org.Automation5x.Selenium24032024" />
       <recent name="org.Automation5x.Selenium23032024" />
-      <recent name="org.Automation5x.Selenium1703" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MSP_checkout.testPostive">
-    <configuration name="EX_01_CURA_Health_Center (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Selenium35_newwindo.testPostive">
+    <configuration name="Selenium32_Actions_Classes.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.exercise.*" />
+          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.exercise" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.exercise.EX_01_CURA_Health_Center" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EX_01_CURA_Health_Center" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB5xLearnSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Automation5x.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.exercise" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.exercise.EX_01_CURA_Health_Center" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EX_01_CURA_Health_Center.testVWOLogin14" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB5xLearnSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Automation5x.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.exercise" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.exercise.EX_01_CURA_Health_Center" />
-      <option name="METHOD_NAME" value="testVWOLogin14" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MSP_checkout.testPostive (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB5xLearnSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Automation5x.MSP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.MSP" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.MSP.MSP_checkout" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium32_Actions_Classes" />
       <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -132,16 +85,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MSP_checkout.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium33_Spice.testPostive (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.MSP.*" />
+          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.MSP" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.MSP.MSP_checkout" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium33_Spice" />
+      <option name="METHOD_NAME" value="testPostive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium33_Spice.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB5xLearnSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium33_Spice" />
+      <option name="METHOD_NAME" value="testPostive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium34_makeMyTrip.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB5xLearnSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium34_makeMyTrip" />
+      <option name="METHOD_NAME" value="testPostive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium35_newwindo.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB5xLearnSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium35_newwindo" />
       <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -152,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MSP_checkout.testPostive" />
-        <item itemvalue="TestNG.MSP_checkout.testPostive (1)" />
-        <item itemvalue="TestNG.EX_01_CURA_Health_Center" />
-        <item itemvalue="TestNG.EX_01_CURA_Health_Center.testVWOLogin14" />
-        <item itemvalue="TestNG.EX_01_CURA_Health_Center (1)" />
+        <item itemvalue="TestNG.Selenium35_newwindo.testPostive" />
+        <item itemvalue="TestNG.Selenium34_makeMyTrip.testPostive" />
+        <item itemvalue="TestNG.Selenium33_Spice.testPostive" />
+        <item itemvalue="TestNG.Selenium33_Spice.testPostive (1)" />
+        <item itemvalue="TestNG.Selenium32_Actions_Classes.testPostive" />
       </list>
     </recent_temporary>
   </component>
