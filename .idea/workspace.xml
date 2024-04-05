@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d803a2-defb-497f-9fa4-c7d1bd5c0945" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium30_Find_SVG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium31_JavascriptExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium32_Actions_Classes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium33_Spice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium34_makeMyTrip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/selenium30032024/Selenium35_newwindo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/Selenium36_PageDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/Selenium37_DragDrp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/Selenium38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/Selenium39_windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/Selenium40_right.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/Selenium41_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/Selenium42_relative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/Selemium31032024/gurru.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/Automation5x/MSP/MSP_checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/Automation5x/MSP/MSP_checkout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +60,24 @@
       <recent name="C:\Users\gurpr\IdeaProjects\ATB5xLearnSelenium" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.Automation5x.Selemium31032024" />
       <recent name="org.Automation5x.selenium30032024" />
       <recent name="org.Automation5x.exercise" />
       <recent name="org.Automation5x.MSP" />
       <recent name="org.Automation5x.Selenium24032024" />
-      <recent name="org.Automation5x.Selenium23032024" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium35_newwindo.testPostive">
-    <configuration name="Selenium32_Actions_Classes.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Selenium43_exceptio.testPostive">
+    <configuration name="Selenium39_windows.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="PATTERN" value="org.Automation5x.Selemium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium32_Actions_Classes" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.Selemium31032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.Selemium31032024.Selenium39_windows" />
       <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -85,16 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium33_Spice.testPostive (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium40_right.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="PATTERN" value="org.Automation5x.Selemium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium33_Spice" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.Selemium31032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.Selemium31032024.Selenium40_right" />
       <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -103,16 +104,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium33_Spice.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium41_.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="PATTERN" value="org.Automation5x.Selemium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium33_Spice" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.Selemium31032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.Selemium31032024.Selenium41_" />
       <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -121,16 +122,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium34_makeMyTrip.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium42_relative.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="PATTERN" value="org.Automation5x.Selemium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium34_makeMyTrip" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.Selemium31032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.Selemium31032024.Selenium42_relative" />
       <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -139,16 +140,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium35_newwindo.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium43_exceptio.testPostive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB5xLearnSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Automation5x.selenium30032024.*" />
+          <option name="PATTERN" value="org.Automation5x.Selemium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.Automation5x.selenium30032024" />
-      <option name="MAIN_CLASS_NAME" value="org.Automation5x.selenium30032024.Selenium35_newwindo" />
+      <option name="PACKAGE_NAME" value="org.Automation5x.Selemium31032024" />
+      <option name="MAIN_CLASS_NAME" value="org.Automation5x.Selemium31032024.Selenium43_exceptio" />
       <option name="METHOD_NAME" value="testPostive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Selenium35_newwindo.testPostive" />
-        <item itemvalue="TestNG.Selenium34_makeMyTrip.testPostive" />
-        <item itemvalue="TestNG.Selenium33_Spice.testPostive" />
-        <item itemvalue="TestNG.Selenium33_Spice.testPostive (1)" />
-        <item itemvalue="TestNG.Selenium32_Actions_Classes.testPostive" />
+        <item itemvalue="TestNG.Selenium43_exceptio.testPostive" />
+        <item itemvalue="TestNG.Selenium42_relative.testPostive" />
+        <item itemvalue="TestNG.Selenium41_.testPostive" />
+        <item itemvalue="TestNG.Selenium40_right.testPostive" />
+        <item itemvalue="TestNG.Selenium39_windows.testPostive" />
       </list>
     </recent_temporary>
   </component>

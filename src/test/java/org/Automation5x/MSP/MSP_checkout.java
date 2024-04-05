@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -53,7 +54,7 @@ public class MSP_checkout {
 //
 //        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 //        wait.until(ExpectedConditions.alertIsPresent());
-
+Thread.sleep(10000);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
 
@@ -62,12 +63,14 @@ public class MSP_checkout {
         WebElement startbutton = driver.findElement(By.cssSelector("button.checkBtn > span"));
         startbutton.click();
 
-        driver.switchTo().frame("ngb-modal-window");
+        Thread.sleep(10000);
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[class='form-control dropdown ng-pristine ng-invalid ng-touched']")));
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("select[class='form-control dropdown ng-pristine ng-invalid ng-touched']")));
 
-        WebElement element_select = driver.findElement(By.cssSelector("select[class='form-control dropdown ng-pristine ng-invalid ng-touched']"));
-        element_select.click();
+        WebElement element_select = driver.findElement(By.xpath("//*[@id=\"earlyLateCheckOut\"]/select[1]"));
+        Actions actions =new Actions(driver);
+        actions.moveToElement(element_select).click().build().perform();
+        System.out.println("perform the click ***************");
         Select select = new Select(element_select);
         select.selectByIndex(4);
 
